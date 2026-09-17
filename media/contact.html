@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Player Stats - Fantasy Premier League</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Top Player Stats & League Contact Form</h1>
+
+    <h2>Player Performance Metrics</h2>
+    <table>
+      <caption>Top Performing FPL Assets</caption>
+      <thead>
+        <tr>
+          <th scope="col">Player Name</th>
+          <th scope="col">Position</th>
+          <th scope="col" colspan="2">Statistics</th>
+        </tr>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col"></th>
+          <th scope="col">Total Points</th>
+          <th scope="col">Price (£m)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Erling Haaland</th>
+          <td>Forward</td>
+          <td>220</td>
+          <td>15.0</td>
+        </tr>
+        <tr>
+          <th scope="row">Mohamed Salah</th>
+          <td>Midfielder</td>
+          <td>211</td>
+          <td>12.5</td>
+        </tr>
+        <tr>
+          <th scope="row">Cole Palmer</th>
+          <td>Midfielder</td>
+          <td>244</td>
+          <td>10.5</td>
+        </tr>
+        <tr>
+          <th scope="row">Gabriel Magalhães</th>
+          <td>Defender</td>
+          <td>148</td>
+          <td>6.0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Average</th>
+          <td>-</td>
+          <td>205.75</td>
+          <td>11.0</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Join Our Mini-League</h2>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Manager Registration</legend>
+
+        <label for="username">Manager Name:</label>
+        <input type="text" id="username" name="username" required placeholder="Yerassyl Almakhan">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="manager@example.com">
+
+        <label for="experience">Seasons Played:</label>
+        <input type="number" id="experience" name="experience" min="1" max="20" placeholder="1">
+
+        <label for="date">League Join Date:</label>
+        <input type="date" id="date" name="date">
+
+        <label for="kitcolor">Team Kit Color:</label>
+        <input type="color" id="kitcolor" name="kitcolor" value="#00ff85">
+
+        <p>Preferred Formation:</p>
+        <input type="radio" id="f1" name="formation" value="343" checked>
+        <label for="f1">3-4-3</label>
+        <input type="radio" id="f2" name="formation" value="352">
+        <label for="f2">3-5-2</label>
+
+        <p>Updates:</p>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+        <label for="newsletter">Receive weekly captaincy tips email</label>
+
+        <label for="message">Squad Notes / Bio:</label>
+        <textarea id="message" name="message" rows="4" maxlength="300" placeholder="Tell us about your team strategy..."></textarea>
+
+        <button type="submit">Submit Entry</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Yerassyl Almakhan</p>
+  </footer>
+
+</body>
+</html>
