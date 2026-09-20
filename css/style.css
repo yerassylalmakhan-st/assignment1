@@ -57,12 +57,13 @@ main {
 
 /* Constrain Image Size */
 img {
-  max-width: 100%;
-  width: 500px;
-  height: auto;
+  width: 100%;
+  max-width: 600px;
+  height: 280px;
+  object-fit: cover;
   border-radius: 8px;
   display: block;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
 }
 
 /* Task 3 Table Styling */
