@@ -1,0 +1,15 @@
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/bin/Debug/net8.0/Assignment1_FP
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/bin/Debug/net8.0/Assignment1_FP.deps.json
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/bin/Debug/net8.0/Assignment1_FP.runtimeconfig.json
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/bin/Debug/net8.0/Assignment1_FP.dll
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/bin/Debug/net8.0/Assignment1_FP.pdb
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.AssemblyInfoInputs.cache
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.AssemblyInfo.cs
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.csproj.CoreCompileInputs.cache
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.sourcelink.json
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.dll
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/refint/Assignment1_FP.dll
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.pdb
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/Assignment1_FP.genruntimeconfig.cache
+/Users/yerassylalmakhan/assignment1/Assignment1_FP/obj/Debug/net8.0/ref/Assignment1_FP.dll
