@@ -1,3 +1,4 @@
+/* Color Variables */
 :root {
   --fpl-purple: #38003c;
   --fpl-green: #00ff87;
@@ -55,17 +56,24 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Constrain Image Size */
+/* Global Image Styling Fix */
 img {
   width: 100%;
-  max-width: 600px;
-  height: 250px;
-  object-fit: cover;
-  object-position: bottom; /* Keeps the players visible at the bottom */
+  max-width: 650px; /* Constrains total width on desktop */
+  height: 300px;    /* Sets a maximum height to stop cutoffs */
+  object-fit: contain; /* Scales image while keeping aspect ratio, showing full content */
+  object-position: center; /* Centers the image content */
   border-radius: 8px;
   display: block;
-  margin: 1.5rem auto;
+  margin: 1.5rem auto; /* Centers the image block */
 }
+
+/* Specific Fix for portrait stadium image on Home */
+img[src="images/stadium.jpg"] {
+  object-fit: cover; /* Crops the stadium image to fill the 300px height nicely */
+  object-position: bottom; /* Anchors the crop to the bottom to show the players */
+}
+
 /* Task 3 Table Styling */
 table {
   width: 100%;
@@ -86,4 +94,4 @@ th {
 
 tr:hover {
   background-color: #f1f1f1;
-}
+} 
