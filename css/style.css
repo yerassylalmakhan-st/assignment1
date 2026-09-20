@@ -58,13 +58,14 @@ main {
 /* Constrain Image Size */
 img {
   width: 100%;
-  max-width: 650px;
-  height: auto;
+  max-width: 600px;
+  height: 250px;
+  object-fit: cover;
+  object-position: bottom; /* Keeps the players visible at the bottom */
   border-radius: 8px;
   display: block;
   margin: 1.5rem auto;
 }
-
 /* Task 3 Table Styling */
 table {
   width: 100%;
